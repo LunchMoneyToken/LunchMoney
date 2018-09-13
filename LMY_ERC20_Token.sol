@@ -254,5 +254,4 @@ contract LunchMoney  is BurnableToken, Ownable {
         totalSupply = initialSupply;
         balances[msg.sender] = initialSupply; // Send all tokens to owner
     }
-
 }
