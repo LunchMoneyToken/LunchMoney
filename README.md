@@ -1,9 +1,13 @@
-# Lunch Money the Ultimate Incentive
+# Lunch Money > Eat Snap Earn 
 
-Restaurant P.I. users will earn LMY tokens every time a secret shop has been completed and when a deal has been redeemed.
+Restaurant P.I. users will earn LMY tokens every time feedback has been submitted.
 
-Restaurant P.I. is a platform that serves as a portal between local restaurant owners and customers around them. Blockchain technology ensures transparency and trust in the businesses and customer relationship. 
+Lunch Money is an up and coming ICO startup that tries to bring the unalterable nature and effectiveness of blockchain  innovation to the eatery audits showcase. 
 
-Exclusive deals and discounts are exchanged for anonymous visits and feedback on the customer experience.Patrons remain anonymous while dining at various participating restaurants. 
+With Lunch Money, eateries will get real and authentic surveys from clients while the clients get the reward for their appropriate audit direct.
 
-After submitting feedback, the customers are rewarded with a deal coupon that can be used in the next visit. Lunch Money tokens are used as earned incentives for completing secret shops and repeat visits
+To put it plainly, Restaurant P.I.tries to naturally screen and channel for phony or low-quality surveys, while additionally offering clients motivators.
+
+This restaurant reviews adventure will incorporate the Lunch Money token and as per the primary highlights for its tasks. LMY token is the essential cash that goes into boosting organizations and its clients.
+
+
