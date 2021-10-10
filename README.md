@@ -1,13 +1,7 @@
 # Lunch Money > Eat Snap Earn 
 
-Restaurant P.I. users will earn LMY tokens every time feedback has been submitted.
-
-Lunch Money is an up and coming ICO startup that tries to bring the unalterable nature and effectiveness of blockchain  innovation to the eatery audits showcase. 
-
-With Lunch Money, eateries will get real and authentic surveys from clients while the clients get the reward for their appropriate audit direct.
-
-To put it plainly, Restaurant P.I.tries to naturally screen and channel for phony or low-quality surveys, while additionally offering clients motivators.
-
-This restaurant reviews adventure will incorporate the Lunch Money token and as per the primary highlights for its tasks. LMY token is the essential cash that goes into boosting organizations and its clients.
+Lunch Money is a decentralized universal loyalty rewards service that incentivizes real feedback from restaurant customers worldwide with instant payments sent from the market.
+The decentralized reviews platform aims to help both the customer and restaurant to establish and maintain a mutually beneficial relationship. For the restaurant, phony and low quality reviews are eliminated, while the quality of service is improved using real customer insights. 
+For the customers, they can earn passive income by simply submitting feedback on their orders and staking their earnings on the Lunch Money platform.
 
 
