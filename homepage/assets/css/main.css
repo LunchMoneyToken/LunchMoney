@@ -13,7 +13,13 @@ body {
     color: var(--dark) !important;
 }
 .bg-black {
-    background: #000000;
+    background: #000000 !important;
+}
+.bg-purple {
+    background: #180c56 !important;
+}
+.bg-cyan {
+    background: #14f4bd !important;
 }
 .btn-download {
     background: linear-gradient(45deg, #0c58b5, #1673e5) !important;
@@ -165,6 +171,12 @@ button:focus {
 form .submit-rating:hover {
     background-color: #333;
 }
+.bg-gray-gradient {
+    background: linear-gradient(45deg, #e2dede, #efefef) !important;
+}
+.btn-icon {
+    height: 20px;
+}
 /* / Utilities */
 
 /* Hero */
@@ -202,6 +214,19 @@ form .submit-rating:hover {
     border-radius: 12px;
 }
 /* / Hero */
+
+/* Feedbacks table */
+.brand-logo {
+    height: 30px;
+}
+.lmy-logo-table {
+    height: 30px;
+}
+.review-size {
+    font-size: 12px;
+    color: gray !important;
+}
+/* / Feedbacks table */
 
 @media screen and (max-width: 1450px) {
     .btn-download, .btn-buy {
