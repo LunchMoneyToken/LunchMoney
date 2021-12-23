@@ -21,7 +21,7 @@ body {
 .bg-cyan {
     background: #14f4bd !important;
 }
-.btn-download {
+.btn-download:not(.btn-md) {
     background: linear-gradient(45deg, #0c58b5, #1673e5) !important;
     font-size: 30px;
     font-weight: 600;
@@ -85,7 +85,7 @@ a {
     border: 1px solid var(--main);
     background-color: white !important;
 }
-.btn {
+.btn:not(#loginButton, #btn-buy) {
     height: 48px;
 }
 button:focus {
@@ -174,8 +174,29 @@ form .submit-rating:hover {
 .bg-gray-gradient {
     background: linear-gradient(45deg, #e2dede, #efefef) !important;
 }
+.bg-gray-light {
+    background: rgba(128, 128, 128, 0.137);
+}
+.bg-gray-super-light {
+    background: #f8f8f8 !important;
+}
 .btn-icon {
     height: 20px;
+}
+.bg-blue {
+    background-color: #0600ff !important;
+}
+.bg-orange {
+    background-color: #ff8228 !important;
+}
+.bg-yellow {
+    background-color: #ffca28 !important;
+}
+.bg-gray-dark {
+    background-color: #e3e3e3 !important;
+}
+.wide-container {
+    max-width: 90%;
 }
 /* / Utilities */
 
@@ -228,6 +249,18 @@ form .submit-rating:hover {
 }
 /* / Feedbacks table */
 
+/* Leaderboard */
+.leaderboard-avatar {
+    height: 50px;
+}
+.leaderboard-side-icon {
+    height: 18px;
+}
+.level-badge {
+    height: 150px;
+}
+/* / Leaderboard */
+
 @media screen and (max-width: 1450px) {
     .btn-download, .btn-buy {
         font-size: 20px;
@@ -269,5 +302,11 @@ form .submit-rating:hover {
     .px-mobile {
         padding-left: 15px;
         padding-bottom: 15px;
+    }
+    .w-100-sm {
+        max-width: 100%;
+    }
+    .d-block-sm {
+        display: block !important;
     }
 }
