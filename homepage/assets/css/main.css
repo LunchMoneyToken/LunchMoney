@@ -9,6 +9,13 @@ body {
 }
 
 /* Utilities */
+@font-face {
+    font-family: Ocra;
+    src: url(./../OCRAEXT.TTF);
+}
+.font-ocra {
+    font-family: Ocra !important;
+}
 .text-dark {
     color: var(--dark) !important;
 }
@@ -234,6 +241,15 @@ form .submit-rating:hover {
     background: white;
     border-radius: 12px;
 }
+#loginButton {
+    display: none;
+}
+#userWallet {
+    background: var(--main);
+    color: white;
+    padding: 10px;
+    border-radius: 35px;
+}
 /* / Hero */
 
 /* Feedbacks table */
@@ -260,6 +276,18 @@ form .submit-rating:hover {
     height: 150px;
 }
 /* / Leaderboard */
+
+/* Token Page */
+.hero-token-page {
+    padding-bottom: 977px;
+}
+.token-hero-img-desktop {
+    display: block;
+}
+.token-hero-img-mobile {
+    display: none;
+}
+/* / Token Page */
 
 @media screen and (max-width: 1450px) {
     .btn-download, .btn-buy {
@@ -308,5 +336,14 @@ form .submit-rating:hover {
     }
     .d-block-sm {
         display: block !important;
+    }
+    .hero-token-page {
+        padding-bottom: 0;
+    }
+    .token-hero-img-desktop {
+        display: none;
+    }
+    .token-hero-img-mobile {
+        display: block;
     }
 }

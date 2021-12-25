@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5.0 Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Google Fonts (Mulish) -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@100;200;300;400;500;600;700;800;900"
+        rel="stylesheet">
+
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Web3 -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <title>Lunchmoney.io - Lunch Money is Backed by Real Feedback</title>
+</head>
+
+<body>
+
+    <!-- Header + Hero -->
+    <div class="container radius hero mt-3 border px-4 mb-3">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/logo.png" class="img-fluid logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://opensea.io/collection/the-drip-chefs">NFT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="staking.lunchmoney.io">Staking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/leaderboard.html">Leaderboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/rewards.html">Rewards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/wallet.html">LMY Wallet</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex d-block-sm">
+                        <div id="userWallet" class="my-auto mx-2 w-100-sm"></div>
+                        <a href="#" id="loginButton"
+                            class="btn w-100 btn-download rounded-pill btn-main btn-md w-100-sm">Connect Wallet</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- / Navbar -->
+
+        <!-- Hero Content -->
+        <div class="container py-1 pb-4">
+            Content
+        </div>
+        <!-- / Hero Content -->
+    </div>
+    <!-- Header + Hero -->
+
+    <!-- Content -->
+    <div class="container pb-5 pt-5">
+        Also, Content
+    </div>
+    <!-- / Content -->
+
+    <!-- Footer -->
+    <div class="container-fluid bg-dark py-5 footer">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="https://etherscan.io/address/0x66fd97a78d8 854fec445cd1c80a07896b0b4851f#code#L1"
+                        class="text-white fw-bold">Smart Contracts Audits</a> <br />
+                    <a href="https://www.dropbox.com/s/6cf393rqldfssle/whitepaper%20v4-3.pptx?dl=0"
+                        class="text-white fw-bold">Whitepaper</a> <br />
+                    <a href="https://www.sec.gov/Archives/edgar/data/0001742054/000174205418000001/xslFormDX01/primary_doc.xml"
+                        class="text-white fw-bold">SEC Registration</a> <br />
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9iJFIJz0q0JgDUeqf9pxy22XKfdrwbszhUs_aLguIHI_Oaw/viewform"
+                        class="text-white fw-bold">Token Listing</a> <br />
+                </div>
+                <div class="col-md-3">
+                    <a href="#top" class="text-white fw-bold">About Us</a> <br />
+                    <a href="#partners" class="text-white fw-bold">Partners</a> <br />
+                    <a href="" class="text-white fw-bold">Github</a> <br />
+                    <a href="" class="text-white fw-bold">FAQ</a> <br />
+                </div>
+                <div class="col-md-3">
+                    <a href="mailto:info@lunchmoney.io" class="text-white fw-bold">Business Enquiries</a> <br />
+                    <a href="https://www.dropbox.com/s/inbrtdn9fno4k9u/lmyprivacy-policy.pdf?dl=0"
+                        class="text-white fw-bold">Privacy & Data Policy</a> <br />
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2zJj4yVA_0yd7Wjo0_y5iY20XyEpZyTzbWYkrA_ksZ3Dlg/viewform"
+                        class="text-white fw-bold">Restaurant Feedback</a> <br />
+                    <a href="https://t.me/lunchmoneytoken" class="text-white fw-bold">Ambassador Program</a> <br />
+                </div>
+                <div class="col-md-3">
+                    <p class="text-white fw-bold h4 contact-information-footer-p">Contact Information</p>
+                    <a href="mailto:info@lunchmoney.io" class="text-white h5">
+                        <i class="far fa-envelope"></i> support@lunchmoney.io
+                    </a>
+                    <div class="mt-3">
+                        <a href="https://m.facebook.com/LunchMoneyToken/" class="d-inline-block h5 mx-2">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="https://twitter.com/lunchtoken" class="d-inline-block h5 mx-2">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="https://instagram.com/lunch_token" class="d-inline-block h5 mx-2">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Footer -->
+
+    <!-- Rights -->
+    <div class="bg-black right-footer py-2 pt-4">
+        <p class="text-white fw-bold text-center">
+            &copy; 2021 Copyright Lunch Money. All Rights Reserved.
+        </p>
+    </div>
+    <!-- / Rights -->
+
+    <!-- Bootstrap 5.0 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <!-- Main Js -->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- Web3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"
+        integrity="sha512-5erpERW8MxcHDF7Xea9eBQPiRtxbse70pFcaHJuOhdEBQeAxGQjUwgJbuBDWve+xP/u5IoJbKjyJk50qCnMD7A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+
+</body>
+
+</html>

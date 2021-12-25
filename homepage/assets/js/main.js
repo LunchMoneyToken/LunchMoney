@@ -22,7 +22,7 @@ async function loginWithMetaMask() {
   if (!accounts) { return }
 
   window.userWalletAddress = accounts[0]
-  userWallet.innerText = window.userWalletAddress
+  userWallet.innerText = window.userWalletAddress.substr(0,5) + 'xxxxxx' + window.userWalletAddress.substr(37, window.userWalletAddress.length)
   // Add a var to the local storage
   localStorage.setItem('connected_with_metamask', true)
   loginButton.innerText = 'Sign out of MetaMask'
@@ -55,3 +55,12 @@ if (userIsAlreadyAuthenticated == 'true') {
     loginButton.click()
   }, 200)
 }
+
+let current = window.location.pathname;
+setInterval(() => {
+  if (loginButton) {
+    if (current == '/') {
+      loginButton.style.display = "block"
+    }
+  }
+}, 100)
