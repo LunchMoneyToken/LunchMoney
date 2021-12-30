@@ -302,6 +302,9 @@ form .submit-rating:hover {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
     .d-sm-none {
         display: none;
     }
