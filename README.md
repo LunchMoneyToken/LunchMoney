@@ -3,7 +3,7 @@
 LunchMoney is a decentralized loyalty rewards platform that incentivizes real feedback from restaurant customers worldwide with instant payments from the market. v2 is being built on web3 technology using Metamask and Walletlink. We welcome all devs to make contributions.
 
 
-![Banner](Banner1.jpg "Main Banner")
+![Banner](./homepage/assets/images/Banner1.jpg "Main Banner")
 
 ## Introduction
 Lunch Money is a decentralized loyalty rewards platform that incentivizes real feedback from restaurant customers with instant payments sent from the market.
@@ -12,7 +12,7 @@ Lunch Money is a decentralized loyalty rewards platform that incentivizes real f
 ## Purpose
 Our aim is to bring the gig economy to restaurants through defi.The gig economy describes a labor market where contractors and freelancers are paid according to short-term assignments and tasks, rather than full- or part-time jobs. In this case, the assignment is submitting feedback to restaurants and saving the survey code to redeem for LunchMoney tokens.
 
-![Banner](Banner2.jpg "2nd Banner")
+![Banner](./homepage/assets/images/Banner2.jpg "2nd Banner")
 
 ## Technical side/code area
 Our native currency known as LunchMoney (LMY) is a Erc20 token used to reward restaurant customer's loyalty to their favorite restaurants. LunchMoney v2 is built web3 technology, requiring the use of a connected wallet such as Coinbase Wallet, Metamask or Walletlink to interact with the platform. Users of the platform must hold LMY in their connected wallet accounts in order to earn LMY. Users can simply purchase LMY directly on the platform through Uniswap or Indacoin. There are other options where users can purchase Lunch Money Including Dharma, Zerion or Zapperfi along with other options. Users can earn passive income simply through staking, use of leaderboard and submitting feedback to select restaurants.
@@ -46,5 +46,5 @@ LunchMoney is a product of Restaurant Private I, a private software company acti
 
 
 ## Roadmap
-![Banner](LMY%20Defi%20Roadmap.png "MarineGEO logo")
+![Banner](./homepage/assets/images/LMY%20Defi%20Roadmap.png "MarineGEO logo")
 
