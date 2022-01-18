@@ -17,6 +17,8 @@ Our aim is to bring the gig economy to restaurants through defi.The gig economy 
 ## Technical side/code area
 Our native currency known as LunchMoney (LMY) is a Erc20 token used to reward restaurant customer's loyalty to their favorite restaurants. LunchMoney v2 is built web3 technology, requiring the use of a connected wallet such as Coinbase Wallet, Metamask or Walletlink to interact with the platform. Users of the platform must hold LMY in their connected wallet accounts in order to earn LMY. Users can simply purchase LMY directly on the platform through Uniswap or Indacoin. There are other options where users can purchase Lunch Money Including Dharma, Zerion or Zapperfi along with other options. Users can earn passive income simply through staking, use of leaderboard and submitting feedback to select restaurants.
 
+![Banner](./homepage/assets/images/Banner3.jpg "3rd Banner")
+
 ### Home Page
 
 1. Users must Sign in/Connect Wallet using Metamask, Coinbase or Walletlink to interact with the platform.
