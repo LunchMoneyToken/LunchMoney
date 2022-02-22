@@ -30,11 +30,6 @@ Our native currency known as LunchMoney (LMY) is a Erc20 token used to reward re
 1. Displays all of the basic information about LMY; including smart contract address, digits ,total supply, ticker, token type and holders
 2. Displays logos related to partnerships and compatible wallets
 
-### Staking Pages
-1. Users will be able to stake and unstake their LMY at anytime.
-2. Users who stake, will earn a share of the total percentage of LMY staked.
-3. Displays the amount of LMY staked in comparison to the total supply
-4. Users must stake for a minimum of 30 days to earn.
 
 ### LMY Wallet Page (only visible to the user)
 
